@@ -1,0 +1,559 @@
+<!DOCTYPE html> <!-- se escrever "html:5" ele já monta essa parte inicial-->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eeveelutions</title>
+    <link rel="stylesheet" href="docs/css/reset.css">
+    <link rel="stylesheet" href="docs/css/global.css">
+    <link rel="stylesheet" href="docs/css/cartao.css">
+    <link rel="stylesheet" href="docs/css/listagem.css">
+    <link rel="stylesheet" href="docs/css/responsive.css">
+
+    <link rel="shortcut icon" href="docs/imagens/pokebola-favicon.ico"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+            <!-- pokedex é o atributo, o valor, da minha classe -->
+            <nav class ="listagem2">
+                <ul>
+                    <li class="pokemon" id="pikachu">
+                        <img src="docs/imagens/cabeca-pikachu.png" alt="Cabeça do pikachu">
+                        <span>Pikachu</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="cartoes-pokemon">
+
+                <div class="cartao-pokemon aberto tipo-normal" id="cartao-eevee">
+                    <!-- CARTÃO EEVEE -->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Eevee</h2>
+                            <span>#133</span>
+                        </div>
+                        <span class="tipo normal">Normal</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/eevee.png" alt="Imagem do eevee">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 55</li>  <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 55</li>
+                                <li>Defesa: 50</li>
+                                <li>Sp.Atq: 45</li>
+                                <li>Sp.Def: 65</li>
+                                <li>Velocidade: 55</li>
+                                <li>Total: 325</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon de evolução. Seu código genético é instável, então pode evoluir de várias maneiras. Isto, permite-lhe adaptar-se a qualquer ambiente.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-eletrico" id="cartao-jolteon">
+                    <!-- CARTÃO JOLTEON-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 divs principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Jolteon</h2>
+                            <span>#135</span>
+                        </div>                     
+                        <span class="tipo eletrico">Elétrico</span>
+                       
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/jolteon.png" alt="Imagem do Jolteon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 65</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 60</li>
+                                <li>Sp. Atq: 110</li>
+                                <li>Sp. Def: 95</li>
+                                <li>Velocidade: 1300</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon relâmpago. Ele acumula cargas negativas na atmosfera que podem gerar relâmpagos de até 10.000 V. </p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-grama" id="cartao-leafeon">
+                    <!-- CARTÃO LEAFEON-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Leafeon</h2>
+                            <span>#470</span>
+                        </div>
+                        <span class="tipo grama">Grama</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/leafeon.png" alt="Imagem do leafeon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 65</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 110</li>
+                                <li>Defesa: 130</li>
+                                <li>Sp. Atq: 60</li>
+                                <li>Sp. Def: 65</li>
+                                <li>Velocidade: 95</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon verdejante. Assim como uma planta, realiza fotossíntese. Como resultado, está sempre envolto em ar puro.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-fogo" id="cartao-flareon">
+                    <!-- CARTÃO FLAREON-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Flareon</h2>
+                            <span>#136</span>
+                        </div>
+                        <span class="tipo fogo">Fogo</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/flareon.png" alt="Imagem do flareon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 65</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 130</li>
+                                <li>Defesa: 60</li>
+                                <li>Sp. Atq: 95</li>
+                                <li>Sp. Def: 110</li>
+                                <li>Velocidade: 65</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon flamejante. Tem uma câmara de chamas dentro de seu corpo. Parte do ar que ele inala, aquece a mais de 1600°C. </p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-agua" id="cartao-vaporeon">
+                    <!-- CARTÃO VAPOREON-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Vaporeon</h2>
+                            <span>#134</span>
+                        </div>
+                        <span class="tipo agua">Água</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/vaporeon.png" alt="Imagem do Vaporeon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 130</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 60</li>
+                                <li>Sp. Atq: 110</li>
+                                <li>Sp. Def: 95</li>
+                                <li>Velocidade: 65</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon jato bolha. Sua estrutura celular é semlhante ás moléculas da água. Ele pode derreter e se tornar invisível na água.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="cartao-pokemon tipo-gelo" id="cartao-glaceon">
+                    <!-- CARTÃO GLACEON -->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Glaceon</h2>
+                            <span>#471</span>
+                        </div>
+                        <span class="tipo gelo">Gelo</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/glaceon1.png" alt="Imagem do Glaceon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 65</li>  <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 60</li>
+                                <li>Defesa: 110</li>
+                                <li>Sp.Atq: 130</li>
+                                <li>Sp.Def: 95</li>
+                                <li>Velocidade: 65</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <<h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon de neve fresca. Ao controlar o calor do corpo, ele pode congelar a atmosfera ao redor para fazer seus pelos ficarem como agulhas.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-psiquico" id="cartao-espeon">
+                    <!-- CARTÃO ESPEON -->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Espeon</h2>
+                            <span>#196</span>
+                        </div>
+                        <span class="tipo psiquico">Psiquico</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/espeon1.png" alt="Imagem do Espeon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 65</li>  <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 60</li>
+                                <li>Sp.Atq: 130</li>
+                                <li>Sp.Def: 95</li>
+                                <li>Velocidade: 110</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Um pokémon do sol. Ao ler as correntes de ar com seus pelos finos, ele pode prever coisas como o clima ou o próximo movimento do seu inimigo.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="cartao-pokemon tipo-noturno" id="cartao-umbreon">
+                    <!-- CARTÃO UMBREON -->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Umbreon</h2>
+                            <span>#197</span>
+                        </div>
+                        <span class="tipo noturno">Noturno</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/umbreon1.png" alt="Imagem do Umbreon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 95</li>  <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 110</li>
+                                <li>Sp.Atq: 60</li>
+                                <li>Sp.Def: 130</li>
+                                <li>Velocidade: 65</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                               <p>Um pokemon do luar. Quando a escuridão cai, seus anéis do corpo começam a brilhar, causando medo nos corações de qualquer pessoa próxima.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fada" id="cartao-silveon">
+                    <!-- CARTÃO SYLVEON -->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Sylveon</h2>
+                            <span>#700</span>
+                        </div>
+                        <span class="tipo fada">Fada</span>
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/sylveon.png" alt="Imagem do Sylveon">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 95</li>  <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 65</li>
+                                <li>Sp.Atq: 110</li>
+                                <li>Sp.Def: 130</li>
+                                <li>Velocidade: 60</li>
+                                <li>Total: 525</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p>Um pokémon entrelaços. Ele emite uma aura calmante de suas antenas em forma de fita para acalmar as lutas.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-eletrico" id="cartao-pikachu">
+                    <!-- CARTÃO PIKACHU-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 divs principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#25</span>
+                        </div>                     
+                        <span class="tipo eletrico">Elétrico</span>
+                       
+
+                        <div class="cartao-imagem">
+                            <img src="docs/imagens/pikachu.png" alt="Imagem do Pikachu">
+                            <!-- escrevendo só "img" e apertando enter ele já completa, src ou source é o caminho até a imagem enquanto que o alt é importante caso a imagem não carregue-->
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 35</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 55</li>
+                                <li>Defesa: 40</li>
+                                <li>Sp. Atq: 50</li>
+                                <li>Sp. Def: 50</li>
+                                <li>Velocidade: 90</li>
+                                <li>Total: 320</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p>Um pokémon rato. Ele mantém a cauda levantada para monitorar seus arredores. A cauda às vezes é atingida por um raio nesta pose.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <nav class="listagem"> <!-- parte de navegação -->
+                <ul>
+
+                    <li class="pokemon ativo" id="eevee">
+                        <img src="docs/imagens/cabeca-eevee.png" alt="Cabeça do Eevee">
+                        <span>Eevee</span>
+                    </li>
+
+                    <li class="pokemon" id="vaporeon">
+                        <img src="docs/imagens/cabeca-vaporeon.png" alt="Cabeça do Vaporeon">
+                        <span>Vaporeon</span>
+                    </li>
+
+                    <li class="pokemon" id="jolteon">
+                        <img src="docs/imagens/cabeca-jolteon.png" alt="Cabeça do Jolteon">
+                        <span>Jolteon</span>
+                    </li>
+
+                    <li class="pokemon" id="flareon">
+                        <img src="docs/imagens/cabeca-flareon.png" alt="Cabeça do Flareon">
+                        <span>Flareon</span>
+                    </li>
+
+                    <li class="pokemon" id="espeon">
+                        <img src="docs/imagens/cabeca-espeon.png" alt="Cabeca do Espeon">
+                        <span>Espeon</span>
+                    </li>
+
+                    <li class="pokemon" id="umbreon">
+                        <img src="docs/imagens/cabeca-umbreon.png" alt="Cabeca do Umbreon">
+                        <span>Umbreon</span>
+                    </li>
+
+                    <li class="pokemon" id="leafeon">
+                        <img src="docs/imagens/cabeca-leafeon.png" alt="Cabeça do Leafeon">
+                        <span>Leafeon</span>
+                    </li>
+
+                    <li class="pokemon" id="glaceon">
+                        <img src="docs/imagens/cabeca-glaceon.png" alt="Cabeça do Glaceon">
+                        <span>Glaceon</span>
+                    </li>
+
+                    <li class="pokemon" id="silveon">
+                        <img src="docs/imagens/cabeca-sylveon.png" alt="Cabeça do Sylveon">
+                        <span>Sylveon</span>
+                    </li>
+
+                   
+
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <script src="docs/js/script.js"></script> <!-- linkando o javascript-->
+
+</body>
+
+</html>

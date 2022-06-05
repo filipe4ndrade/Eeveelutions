@@ -1,0 +1,11 @@
+/* O reset é feito para tirar os estilos próprios que o navegador coloca */
+
+* {    /* esse asterisco faz com que as propriedades sejam aplicadas em todos os elementos  */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}

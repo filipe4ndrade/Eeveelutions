@@ -1,0 +1,217 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0px; /* 30px na parte de cima, 40px aos lados e 0px na parte de baixo. */
+    background: url('../imagens/fundo-cartao.png') top center / 67% no-repeat;
+    background-position-y: 55%;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+    
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 9px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #FFFFFF;
+}
+
+/* Cores dos tipos de cada cartão */
+
+.cartao-topo .eletrico {
+    background-color: #ffd904;
+    opacity: 1;
+}
+
+.tipo.normal {
+    background-color: #859588;
+}
+
+.tipo.venenoso {
+    background-color: #670979;
+}
+
+.tipo.fogo {
+    background-color: #ed710b;
+}
+
+.tipo.voador {
+    background-color: #af88ef;
+}
+
+.tipo.grama {
+    background-color: #45d535;
+}
+
+.tipo.fantasma {
+    background-color: #471e99;
+}
+
+.tipo.gelo {
+    background-color: #84e6ed;
+}
+
+.tipo.lutador {
+    background-color: #a40808;
+}
+
+.tipo.metal {
+    background-color: #c1cfd7;
+}
+
+.tipo.psiquico {
+    background-color: #cf1274;
+}
+
+.tipo.dragao {
+    background-color: #540de3;
+}
+
+.tipo.agua {
+    background-color: #4689e8;
+}
+
+.tipo.noturno {
+    background-color: #392620;
+}
+
+.tipo.fada {
+    background-color: #f2a4cc;
+}
+
+
+
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;    /* display flex na classe pai faz com que as classes filhas fiquem ao lado */
+    justify-content: space-between; /* coloca um espaço grande entre os elementos na horizontal*/
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+    width: 350px;
+    height: 350px;
+   
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+.aberto img {
+    animation-name: slide;
+    animation-duration: 0.5s;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        max-height: 60%;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+/* Cores do fundo cartão pokemon */
+
+.tipo-fogo {
+    background: rgb(0, 0, 2);
+    background: linear-gradient(135deg, rgb(61, 18, 0) 5%, rgb(160, 60, 17) 23%, rgb(231, 105, 51) 40%, rgb(238, 206, 193) 60%);
+}
+
+.tipo-eletrico {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgb(69, 61, 1) 5%, rgb(161, 135, 7) 23%, rgb(233, 187, 3) 40%, rgb(243, 235, 153) 60%);
+}
+
+.tipo-agua {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgb(2, 16, 106) 5%, rgb(52, 160, 255) 23%, rgb(32, 114, 255) 40%, rgb(177, 216, 255) 60%);
+}
+
+.tipo-grama {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgb(1, 47, 6) 5%, rgb(26, 132, 19) 23%, rgb(91, 227, 107) 40%, rgb(175, 248, 191) 60%);
+}
+
+
+.tipo-dragao {
+    background: rgb(4, 1, 46);
+    background: linear-gradient(135deg, rgba(2,1,18,1) 5%, rgb(41, 17, 196) 23%, rgb(68, 50, 226) 40%, rgb(197, 193, 238) 60%);
+}
+
+.tipo-psiquico {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgb(31, 0, 48) 5%, rgb(87, 14, 94) 23%, rgb(210, 85, 204) 40%, rgb(235, 210, 235) 60%);
+}
+
+.tipo-gelo {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgba(2,1,18,1) 5%, rgba(17,93,196,1) 23%, rgb(50, 223, 226) 40%, rgb(193, 229, 238) 60%);
+}
+
+.tipo-normal {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgb(26, 44, 34) 5%, rgb(65, 79, 71) 23%, rgb(130, 156, 142) 40%, rgb(203, 229, 217) 60%);
+}
+
+.tipo-lutador {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgba(2,1,18,1) 5%, rgb(100, 22, 32) 23%, rgb(134, 88, 94) 40%, rgb(216, 191, 191) 60%);
+}
+
+.tipo-noturno {
+    background: rgb(2,1,18);
+    background: linear-gradient(135deg, rgba(2,1,18,1) 5%, rgb(100, 22, 32) 23%, rgb(134, 88, 94) 40%, rgb(216, 191, 191) 60%);
+}
+
+.tipo-fada {
+    background: rgb(2,1,18);
+    background:  linear-gradient(135deg, rgb(109, 1, 64) 5%, rgb(175, 30, 127) 23%, rgb(210, 85, 204) 40%, rgb(235, 210, 235) 60%);
+}

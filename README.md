@@ -7,3 +7,7 @@ que contém seu nome, imagem, tipo, número listado na national pokedéx, status
 para ser visualizado no cartão. 
 
 Assim, gostaria de dizer que minha eeveelution favorita é Umbreon, e a sua?
+
+🔗 Link da página [aqui](https://filipe4ndrade.github.io/Eeveelutions/).
+
+## GIF da página
